@@ -112,7 +112,7 @@ void display(FILE * fp)
         printf("\n\n\t\tPrice: %.2f", s.price);
     }
     printf("\n\n\t");
-    printf("Press 'x' to Return");
+    printf("Press 'x' to Return: ");
     fflush(stdin);
     another=getchar();
     if(another=='x'||another=='X')
